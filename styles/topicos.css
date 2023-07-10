@@ -28,3 +28,17 @@
     padding: 1em;
     background: var(--laranja);
 }
+
+@media screen and (min-width: 1024px) {
+    .topicos_titulo {
+        font-size: 24px;
+    }
+
+    .lista_topicos_link {
+        font-size: 24px;
+    }
+
+    .lista_topicos {
+        justify-content: center;
+    }
+}

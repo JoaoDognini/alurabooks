@@ -1,7 +1,3 @@
-.carrossel {
-
-}
-
 .carrossel_titulo {
     color: var(--laranja);
     background-color: var(--branco);
@@ -78,4 +74,19 @@
 
 .descricao_imagem_autora {
     margin-bottom: .5em;
+}
+
+@media screen and (min-width: 1024px) {
+    .carrossel_titulo {
+        font-size: 26px;
+    }
+
+    .swiper {
+        width: 60%;
+    }
+
+    .card {
+        width: 50%;
+        margin: 2em auto;
+    }
 }

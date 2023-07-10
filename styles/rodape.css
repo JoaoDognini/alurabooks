@@ -5,3 +5,38 @@ hr {
     padding: 1em;
     background-color: var(--branco);
 }
+
+.rodape_lista {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .rodape {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .rodape_titulo {
+        font-size: 24px;
+    }
+
+    .rodape_lista {
+        display: block;
+    }
+
+    .rodape_lista_titulo {
+        color: #858585;
+        font-size: 14px;
+    }
+
+    .rodape_lista_item {
+        display: flex;
+        align-items: center;
+        margin: 0.5em 0;
+    }
+
+    .rodape_lista_item_link {
+        color: #474646;
+        margin-left: 0.5em;
+    }
+}
