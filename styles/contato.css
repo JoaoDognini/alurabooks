@@ -39,7 +39,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        padding: 2em;
+        padding: 3em;
     }
 
     .contato_info {
@@ -54,4 +54,18 @@
     .contato_email {
         width: 30%;
     } 
+}
+
+@media screen and (min-width: 1728px) {
+    .contato {
+        padding: 5em;
+    }
+
+    .contato_email {
+        width: 25%;
+    }
+
+    .contato_texto {
+        margin-right: 10em;
+    }
 }

@@ -30,8 +30,13 @@
 }
 
 @media screen and (min-width: 1024px) {
+    .topicos_visitados {
+        padding: 2em;
+    }
+    
     .topicos_titulo {
         font-size: 24px;
+        padding: 1em;
     }
 
     .lista_topicos_link {
@@ -40,5 +45,24 @@
 
     .lista_topicos {
         justify-content: center;
+    }
+
+    .lista_topicos_link:hover {
+        background: lightcoral;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .topicos_titulo {
+        font-size: 32px;
+    }
+
+    .lista_topicos_link {
+        font-size: 24px;
+    }
+
+    .lista_topicos {
+        margin: auto;
+        width: 50%;
     }
 }
